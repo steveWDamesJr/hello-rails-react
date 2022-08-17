@@ -4,7 +4,7 @@ class MessagesController < ApplicationController
   # GET /messages or /messages.json
   def index
     @messages = Message.all.sample(5).first
-    render json: @messages.greeting
+    render json: @messages
   end
 
 
