@@ -66,8 +66,7 @@ Open the project in your favorite code editor. `code .` for VS Code.
   - Run `rails db:create db:migrate` to create the database and run migrations.
   - You might need to supply a username and password for your PostgreSQL database if you run into an error with the previous step.
   - Simply navigate to `config/database.yml` and add your username and password to the `username` and `password` fields.
-  - Type in the terminal `rails s` to start the server then click on `http://127.0.0.1:3000`
-  - Enjoy your Budget App!
+
   
 Start terminal, webpack, and Tailwind transpilers:
 
